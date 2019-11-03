@@ -1,15 +1,17 @@
 package com.github.zipper2110.something.messaging;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.UUID;
 
 public class MessageId {
-    private final String value;
+    private @NotNull final String value;
 
-    public MessageId(UUID value) {
+    public MessageId(@NotNull UUID value) {
         this.value = value.toString();
     }
 
-    public String getValue() {
+    public @NotNull String getValue() {
         return value;
     }
 }
