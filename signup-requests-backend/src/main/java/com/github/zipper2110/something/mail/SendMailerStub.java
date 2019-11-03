@@ -1,9 +1,13 @@
 package com.github.zipper2110.something.mail;
 
+import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
+@Slf4j
 public class SendMailerStub implements SendMailer {
 
     @Override
