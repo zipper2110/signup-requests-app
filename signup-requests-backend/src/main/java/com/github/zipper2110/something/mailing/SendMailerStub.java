@@ -1,5 +1,6 @@
-package com.github.zipper2110.something.mail;
+package com.github.zipper2110.something.mailing;
 
+import com.github.zipper2110.something.entity.EmailAddress;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
