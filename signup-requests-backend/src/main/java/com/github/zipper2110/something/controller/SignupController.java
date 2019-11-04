@@ -59,19 +59,19 @@ public class SignupController {
             this.fullName = fullName;
         }
 
-        public String getUsername() {
+        String getUsername() {
             return username;
         }
 
-        public String getPassword() {
+        String getPassword() {
             return password;
         }
 
-        public String getEmail() {
+        String getEmail() {
             return email;
         }
 
-        public String getFullName() {
+        String getFullName() {
             return fullName;
         }
     }

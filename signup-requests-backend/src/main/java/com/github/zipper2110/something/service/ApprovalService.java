@@ -54,9 +54,4 @@ public class ApprovalService {
     Message<SignupRequest> getReply(MessageId messageId) throws TimeoutException {
         return messagingService.receive(messageId, SignupRequest.class);
     }
-
-//        @Recover
-//        public void recover(RemoteAccessException e) {
-//            // ... panic
-//        }
 }

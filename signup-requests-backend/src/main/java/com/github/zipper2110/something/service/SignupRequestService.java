@@ -33,10 +33,6 @@ public class SignupRequestService {
         return created;
     }
 
-    public SignupRequest.Status getStatus(String signupRequestId) {
-        return getById(signupRequestId).getStatus();
-    }
-
     private void updateStatus(SignupRequest signupRequest) {
         updateStatus(signupRequest.getId(), signupRequest.getStatus());
     }
