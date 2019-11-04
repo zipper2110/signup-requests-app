@@ -35,9 +35,6 @@ public class SignupController {
         // TODO: handle the case where we cannot create a request
     }
 
-    // I intentionally have not implemented data validation (only something basic is here),
-    // since I expect that the approval system will have that responsibility for it
-
     private static class SignupRequestDTO {
 
         @NotBlank

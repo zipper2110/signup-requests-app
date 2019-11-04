@@ -34,8 +34,6 @@ public class SignupRequest {
     @NotNull
     private Status status = Status.INITIALIZED;
 
-    private boolean hasPendingStatusNotification = false;
-
     public String getId() {
         return id;
     }
